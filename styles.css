@@ -6,28 +6,29 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 img {
     width: 100%;
-    max-width: 300px;
-    mas-height: 300px;
-    border-radius: 15px;
+    max-width: 18.75rem;
+    max-height: 18.75rem;
+    border-radius: 0.9375rem;
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 15px;
-    width: 300px;
+    border-radius: 0.9375rem;
+    width: 18.75rem;
     text-align: center;
-    padding: 15px 15px 30px 15px;
+    padding: 0.9375rem 0.9375rem 1.875rem 0.9375rem;
 }
 
 .attribution {
     font-family: 'Outfit', sans-serif;
-	font-size: 15px;
+	font-size: 0.9375rem;
 	text-align: center;
-	margin: 15px;
+	margin: 0.9375rem;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
@@ -37,14 +38,14 @@ img {
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    font-size: 23px;
-    padding: 0 8px;
+    font-size: 1.4375rem;
+    padding: 0 0.5rem;
 }
 
 #description {
     font-family: 'Outfit', sans-serif;
     color: hsl(220, 15%, 55%);
     font-weight: 400;
-    font-size: 16px;
-    padding: 0 10px;
+    font-size: 1rem;
+    padding: 0 0.625rem;
 }
